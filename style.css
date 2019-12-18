@@ -9,6 +9,9 @@ font-family: 'Oxygen', sans-serif;
 }
 button {color:#178a38;
 }
+body {
+  background-color: #0099ff;
+}
 ::placeholder {color:#178a38;
 }
 body {
