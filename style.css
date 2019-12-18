@@ -1,9 +1,9 @@
 .container {
   margin: 0 auto;
   min-width: 500px;
-  width: 45%;
+  width: 25;
   text-align: left;
-  color: #3b3b3b;
+  color: #0099ff;
   font-weight: bold;
 }
 
@@ -16,7 +16,7 @@ form {
 
 input[type="text"] {
   outline: 0;
-  width: 55%;
+  width: 30%;
   height: 32px;
   border: none;
   font-size: 18px;
