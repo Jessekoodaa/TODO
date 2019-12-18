@@ -42,12 +42,12 @@ $(document).ready(function() {
   });
 });
 function run(){
-var password = prompt("Password Please");
+var password = prompt("Salasana!?");
 if(password != 'Jesse'){
 document.body.innerHTML = '';
-document.body.innerHTML = 'Password Failed! Reload to Renter Password';
+document.body.innerHTML = 'Väärä salasana! Yritä uudelleen!';
 }else{
-alert('Success');
+alert('Salasana oikein!');
 }
 }
 run();
