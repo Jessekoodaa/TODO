@@ -1,19 +1,63 @@
-h1 {font-family: 'Staatliches', cursive;
-color:#35f26c;}
-h2 {font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Oxygen', sans-serif;
- color:#42f59b;
-  font-size: 50px;
+.container {
+  margin: 0 auto;
+  min-width: 500px;
+  width: 45%;
+  text-align: left;
+  color: #3b3b3b;
   font-weight: bold;
 }
-button {color:#178a38;
+
+form {
+  outline: 0;
+  height: 36px;
+  margin-top: 5%;
+  border: 3px solid #3b3b3b;
+}
+
+input[type="text"] {
+  outline: 0;
+  width: 55%;
+  height: 32px;
+  border: none;
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+.add {
+  outline: 0;
+  float: right;
+  width: 34%;
+  height: 36px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #3b3b3b;
+}
+
+ul {
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+hr {
+  border-bottom: 0;
+  margin: 15px 0;
+}
+
+input[type="checkbox"] {
+  width: 30px;
 }
 body {
-  background-color: #0099ff;
+  background-color: lightblue;
 }
-::placeholder {color:#178a38;
+.remove {
+  float: right;
+  cursor: pointer;
 }
-body {
-  background-color: #0099ff;
+
+.completed {
+  text-decoration: line-through;
 }
